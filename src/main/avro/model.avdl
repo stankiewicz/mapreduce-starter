@@ -1,0 +1,13 @@
+@namespace("pl.stankiewicz.bigdata.starter.avro")
+protocol Example {
+	record ExampleKey {
+		string k1;
+		string k2;
+	}
+	
+	record ExampleValue {
+		long v1;
+		int v2;
+	}
+
+}
